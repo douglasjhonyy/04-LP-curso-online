@@ -18,6 +18,7 @@ header{
     font-weight: 700;
     letter-spacing: 0.02em;
     color: var(--text);
+    cursor: pointer;
 }
 
 .logo span { color: var(--accent); }
@@ -29,4 +30,20 @@ nav{
 }
 
 nav a:hover { 
-    color: var(--text); }
+    color: var(--accent); }
+
+.btn-nav{
+    padding: 10px 24px;
+    border: 1px solid var(--accent);
+    border-radius: 50px;
+    color: var(--accent);
+    font-size: 0.8rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: background 0.25s, color 0.25s;
+}
+
+.btn-nav:hover {
+      background: var(--accent);
+      color: var(--bg) !important;
+    }
