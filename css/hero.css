@@ -104,3 +104,28 @@
     color: var(--text);
     border-color: var(--muted);
 }
+
+/* Estatísticas abaixo do hero */
+
+.hero-stats{
+    display: flex;
+    gap: 60px;
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid var(--border);
+    animation: fadeUp 0.7s ease both;
+    animation-delay: 0.65s;
+}
+.stat-num{
+    font-family: var(--font-display);
+    font-size: 2.4rem;
+    font-weight: 600;
+    color: var(--text);
+    display: block;
+}
+.stat-label{
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
