@@ -6,6 +6,12 @@
 
 .benefits-grid {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    
+}
+
+.benefit-card{
+    background: var(--bg-card);
     padding: 44px 36px;
     border: 1px solid var(--border);
     transition: background 0.3s;
