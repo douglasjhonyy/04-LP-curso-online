@@ -1,47 +1,47 @@
-@media (max-width:900px){
-    header{
+@media (max-width:900px) {
+    header {
         padding: 18px 24px;
     }
 
-    nav{
+    nav {
         gap: 20px;
     }
 
-    nav a:not(.btn-nav){
+    nav a:not(.btn-nav) {
         display: none;
     }
 
-    section{
+    section {
         padding: 80px 24px;
     }
 
-    .hero{
+    .hero {
         padding: 60px 24px;
     }
 
-    .hero h1{
+    .hero h1 {
         font-size: 2.8rem;
     }
 
-    .hero-stats{
+    .hero-stats {
         gap: 32px;
         flex-wrap: wrap;
     }
 
-    .curriculum{
+    .curriculum {
         grid-template-columns: 1fr;
         gap: 48px;
     }
 
-    .curriculum-sticky{
+    .curriculum-sticky {
         position: static;
     }
 
-    .price-card{
+    .price-card {
         padding: 40px 28px;
     }
 
-    footer{
+    footer {
         flex-direction: column;
         gap: 12px;
         text-align: center;

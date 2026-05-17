@@ -1,4 +1,4 @@
-footer{
+footer {
     padding: 40px 60px;
     border-top: 1px solid var(--border);
     display: flex;
@@ -6,8 +6,7 @@ footer{
     align-items: center;
 }
 
-footer p{
+footer p {
     font-size: .8rem;
     color: var(--muted);
 }
-
